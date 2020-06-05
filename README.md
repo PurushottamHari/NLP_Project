@@ -15,3 +15,23 @@ Hence, I continued to build the process so that for the least part, I can atleas
 Therefore, this project showcases a model trained using barks from the source mentioned above (dirty dataset for our usecase) which can be used in the future with better equipements.
 
 Reference to understand audio file visulaizations: https://www.kaggle.com/davids1992/speech-representation-and-data-exploration
+
+
+The following modules are needed:
+import matplotlib.pyplot as plt
+from matplotlib.backend_bases import RendererBase
+from scipy import signal
+from scipy.io import wavfile
+#import soundfile as sf
+import os
+import numpy as np
+from PIL import Image
+from scipy.fftpack import fft
+import tensorflow as tf
+import keras
+from keras.models import Sequential
+from keras.layers import Convolution2D
+from keras.layers import MaxPooling2D
+from keras.layers import Flatten
+from keras.layers import Dense
+from keras.models import model_from_json   
