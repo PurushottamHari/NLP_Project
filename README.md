@@ -11,3 +11,5 @@ Unfortunately though, I could not collect my desired dataset since it required t
 Nevertheless, we were lucky enough to find a dataset of Youtube Videos with barks of various dogs here: https://research.google.com/audioset/ontology/dog_1.html
 
 Hence, I continued to build the process so that for the least part, I can atleast understand how to process the audio files and pre process the data when I get my desired Dataset.
+
+Threfore, this project showcases a model trained using barks from the source mentioned above (dirty dataset for our usecase) which can be used in the future with better equipements.
